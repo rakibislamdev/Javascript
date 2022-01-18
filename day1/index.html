@@ -6,19 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
+    <!--link-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <!--Header-->
-    <button id="info">Author</button>
+    <header class="header">
+        <p id="demo"></p>
+        <button type="button"
+            onclick='document.getElementById("demo").innerHTML = "<h1>Hi, I am Rakib Islam.</h1><p>I am a Web Developer</p>"'>Click
+            Me!
+        </button>
+    </header>
+    <!--content-->
+    <!--bulb section-->
+    <section class="bulb">
+        <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+        <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+        <!--bulb section end-->
+    </section>
 
     <p id="js">This is Javascript</p>
     <p id="js1">Change my fontsize</p>
+    <!--footer-->
+    <footer class="footer">
+        <p>Copyright &copy;-2022. all right reserved by Rakib</p>
+    </footer>
 
-
-
-
+    <!--Script-->
     <script src="js/myscript.js"></script>
 
 
