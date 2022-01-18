@@ -1,2 +1,8 @@
-document.getElementById('js').innerHTML = "Hello Javascript";
-document.getElementById('js1').style.fontSize = "50px";
+"user strict"
+
+
+ 
+function myFunction(a, b) {
+    document.getElementById('sum').innerHTML = a+b;
+              
+}

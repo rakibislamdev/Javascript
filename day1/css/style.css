@@ -27,3 +27,22 @@
 .bulb{
     text-align: center;
 }
+
+.calculation{
+    margin: 20px;
+}
+
+.sum-item{
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.sum-item p{
+    font-size: 24px;
+}
+
+#sum-button{
+    padding: 10px;
+}
