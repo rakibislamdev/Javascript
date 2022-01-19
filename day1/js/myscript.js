@@ -56,3 +56,7 @@ function myFunction(p1, p2) {
   }
 
   console.log(myFunction(4,5));
+
+  /* object */
+const car = {type:"Fiat", model:"500", color:"white"};
+console.log("The car type is " + car.type);
